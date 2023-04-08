@@ -1,0 +1,13 @@
+.aboutSection {
+  position: relative;
+  margin-top: 3rem;
+}
+
+.aboutImageContainer {
+  position: relative;
+}
+
+  .aboutImageContainer img {
+    width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,30 @@
+.introContainer {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 800px;
+}
+
+.introContainer h1 {
+  font-size: 4.5rem;
+  letter-spacing: 3px;
+  margin: 0 0 35px;
+}
+
+.introContainer h2 {
+  font-size: 2.5rem;
+  color: var(--accent-green);
+  margin: 0 0 50px;
+}
+
+.introContainer h4 {
+  font-size: 2rem;
+  font-weight: 300;
+  margin: 50px 0 30px;
+}
+
+.introContainer p {
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  font-weight: 200;
+  margin: 80px 0 0;
+}
