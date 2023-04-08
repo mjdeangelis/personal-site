@@ -8,6 +8,6 @@ export const inconsolata = Inconsolata({
 
 export const montserrat = Montserrat({
   subsets: ["latin"],
-  weight: ["700", "900"],
+  weight: ["300", "700", "900"],
   variable: '--font-heading'
 });
