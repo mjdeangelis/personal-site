@@ -1,10 +1,6 @@
 .nav {
-  display: flex;
   height: 100px;
   width: 90%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
   margin: 0 auto;
 }
 
@@ -22,13 +18,32 @@
   }
 
 .navLeft {
-  display: flex;
-  justify-content: flex-start;
-  width: 50%;
+  margin: 0 0 1rem;
 }
 
 .navRight {
-  display: flex;
-  justify-content: flex-end;
-  width: 50%;
+
+}
+
+@media (min-width: 768px) {
+  .nav {
+    display: flex;
+    height: 100px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .navLeft {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: 0;
+  }
+  
+  .navRight {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+  }
 }

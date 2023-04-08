@@ -16,8 +16,10 @@ export default function RootLayout({
     <html lang='en'>
       <head />
       <body>
-        <Navbar />
-        <main>{children}</main>
+        <div className='appContainer'>
+          <Navbar />
+          <main>{children}</main>
+        </div>
       </body>
     </html>
   );

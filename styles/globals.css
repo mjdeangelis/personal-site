@@ -428,8 +428,9 @@ h2 {
   font-size: 2rem;
 }
 
-.app-container {
+.appContainer {
   padding: 1rem;
+  overflow-x: hidden;
 }
 
 .pageContainer {
