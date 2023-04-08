@@ -17,14 +17,6 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* <div className={styles.aboutSection}>
-        <p>
-          I'm a front-end engineer from Philadelphia who specializes in writing
-          Javascript and Typescript web applications. Currently I'm focusing on
-          React, but have also spent a few years with Angular.
-        </p>
-      </div> */}
-
       <div className={styles.aboutSection}>
         <h2>professional background</h2>
         <p>
