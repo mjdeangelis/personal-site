@@ -1,5 +1,7 @@
 import Image from "next/image";
 import styles from "/styles/about.module.css";
+import mePic from "/public/images/hawaii.jpeg";
+import familyPic from "/public/images/georgia-hike-3.jpeg";
 
 export default function AboutPage() {
   return (
@@ -8,7 +10,11 @@ export default function AboutPage() {
         <h1>about me</h1>
         <p>Hey, I&apos;m Mike DeAngelis.</p>
         <div className={styles.aboutImageContainer}>
-          <img src='/images/hawaii.jpeg' alt='Caroline, Mike, and Alfie' />
+          <Image
+            src={mePic}
+            alt='Mike DeAngelis'
+            placeholder='blur' // Optional blur-up while loading
+          />
         </div>
         <p>
           I&apos;m a front-end engineer from Philadelphia who specializes in
@@ -48,9 +54,10 @@ export default function AboutPage() {
           section of Philadelphia with my wife, Caroline, and dog, Alfie.
         </p>
         <div className={styles.aboutImageContainer}>
-          <img
-            src='/images/georgia-hike-3.jpeg'
+          <Image
+            src={familyPic}
             alt='Caroline, Mike, and Alfie'
+            placeholder='blur' // Optional blur-up while loading
           />
         </div>
       </div>
