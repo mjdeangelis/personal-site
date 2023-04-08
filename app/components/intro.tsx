@@ -7,10 +7,11 @@ export const Intro = () => (
       <h1>Mike DeAngelis</h1>
       <h2>I&apos;m a front-end engineer.</h2>
       <p>
-        I&apos;m a developer specializing in building React applications. I am
-        naturally curious, creative and I love to solve difficult problems.
-        I&apos;m currently available for select freelance work. If you&apos;d
-        like to connect, please get in touch.
+        I&apos;m a 31-year-old front-end engineer from Philadelphia with over 10
+        years of professional experience. I specialize in React and enjoy
+        tackling complex problems with a creative and curious mindset. While
+        I&apos;m not currently seeking work, I&apos;m always happy to connect
+        and discuss potential opportunities.
       </p>
     </section>
   </div>
