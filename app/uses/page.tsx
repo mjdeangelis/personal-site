@@ -51,7 +51,7 @@ export default function UsesPage() {
             >
               Logitech MX Master 3S
             </a>
-            . For years I used the typical Apple magic mouse but I haven't
+            . For years I used the typical Apple magic mouse but I haven&apos;t
             looked back after switching.
           </li>
           <li>
