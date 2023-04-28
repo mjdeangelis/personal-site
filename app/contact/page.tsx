@@ -4,7 +4,11 @@ export default function Contact() {
   return (
     <div className='pageContainer'>
       <h1>contact</h1>
-      <a href='mailto:mjdeangelis@gmail.com'>Email me here</a>
+      <p>This page is a work in-progress.</p>
+      <p>
+        In the meantime, feel free to{" "}
+        <a href='mailto:mjdeangelis@gmail.com'>email me here</a>.
+      </p>
     </div>
   );
 }

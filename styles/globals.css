@@ -403,7 +403,7 @@ a {
     height: 100%;
   } */
 
-p {
+p, a, li {
   font-size: 1.3rem;
   font-weight: 200;
   line-height: 1.57em;

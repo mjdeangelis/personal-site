@@ -69,10 +69,10 @@ export default function AboutPage() {
         <h2>hobbies</h2>
         <p>
           When I&apos;m not coding, I like to get away from the screen. I enjoy
-          eating, whether I&apos;m cooking at home or exploring the Philly the
-          restaurant scene. I recently joined a{" "}
+          eating, whether I&apos;m cooking at home or exploring the growing
+          Philly restaurant scene. I recently joined a{" "}
           <a href='https://novemfit.com/' target='_blank'>
-            crossfit gym
+            CrossFit gym
           </a>{" "}
           where I&apos;m renewing my obsession with functional fitness. I&apos;m
           also a very average golfer and avid{" "}
