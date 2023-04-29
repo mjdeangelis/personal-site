@@ -2,7 +2,7 @@ import { Inconsolata, Montserrat } from "@next/font/google";
 
 export const inconsolata = Inconsolata({
   subsets: ["latin"],
-  weight: ["200", "400"],
+  weight: ["300", "400"],
   variable: '--font-body'
 });
 
