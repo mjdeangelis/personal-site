@@ -86,6 +86,11 @@ export default function UsesPage() {
             </a>
           </li>
           <li>
+            <a href='https://aws.amazon.com/' target='_blank'>
+              AWS (what this site is built on)
+            </a>
+          </li>
+          <li>
             <a href='https://hyper.is/' target='_blank'>
               Hyper
             </a>
