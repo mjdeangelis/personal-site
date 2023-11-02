@@ -7,11 +7,14 @@ export const Navbar = () => {
 
   function handleThemeToggle(e: any) {
     setIsDarkMode(!isDarkMode);
+    const toggleOffAudio: HTMLElement | null =
+      document.getElementById("lightSwitchSound");
     if (isDarkMode) {
       document.documentElement.setAttribute("data-theme", "dark");
     } else {
       document.documentElement.setAttribute("data-theme", "light");
     }
+    (toggleOffAudio as HTMLAudioElement)?.play();
   }
 
   return (
@@ -28,7 +31,7 @@ export const Navbar = () => {
           <Link href='/projects'>projects</Link>
           <Link href='/uses'>uses</Link>
           <Link href='/contact'>contact</Link>
-          <div className='themeToggle' onClick={handleThemeToggle}>
+          <button className='themeToggle' onClick={handleThemeToggle}>
             <svg
               xmlns='http://www.w3.org/2000/svg'
               fill='#fff'
@@ -59,7 +62,8 @@ export const Navbar = () => {
                 d='M21.752 15.002A9.718 9.718 0 0118 15.75c-5.385 0-9.75-4.365-9.75-9.75 0-1.33.266-2.597.748-3.752A9.753 9.753 0 003 11.25C3 16.635 7.365 21 12.75 21a9.753 9.753 0 009.002-5.998z'
               />
             </svg>
-          </div>
+            <audio id='lightSwitchSound' src='/audio/light-switch.mp3'></audio>
+          </button>
         </div>
       </nav>
     </>

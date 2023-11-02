@@ -362,7 +362,7 @@ template {
   --accent-green: #50edb4;
 }
 
-[data-theme="dark"] {
+[data-theme="light"] {
   --background-primary: #fff;
   --body: #020c1b;
   --accent-green: #3FC58E;
@@ -377,6 +377,11 @@ html {
 body {
   color: var(--body);
   font-size: 16px;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #EF7B45;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -426,20 +431,24 @@ h2 {
 }
 
 .themeToggle {
-  height: 25px;
-  width: 25px;
+  display: block;
+  height: 40px;
+  width: 40px;
   cursor: pointer;
+  appearance: none;
+  border: none;
+  background: transparent;
 }
 
 #moon {
   display: none;
 }
 
-[data-theme="dark"] #sun {
+[data-theme="light"] #sun {
   display: none;
 }
 
-[data-theme="dark"] #moon {
+[data-theme="light"] #moon {
   display: block;
 }
 
