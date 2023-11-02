@@ -5,7 +5,9 @@ export const Navbar = () => (
   <>
     <nav className={styles.nav}>
       <div className={styles.navLeft}>
-        <a href='/'>m/d</a>
+        <a href='/' className={styles.logo}>
+          m<span>ike</span>/d<span>eangelis</span>
+        </a>
       </div>
       <div className={styles.navRight}>
         <Link href='/about'>about</Link>

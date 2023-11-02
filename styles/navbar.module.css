@@ -25,6 +25,26 @@
 
 }
 
+.logo {
+  position: relative;
+}
+
+.logo span {
+  opacity: 0;
+  position: absolute;
+  /* transition-delay: 1s, 250ms;
+  transition-duration: 100ms, 100ms;
+  transition-timing-function: ease-in, linear;
+  transition-property: opacity, position; */
+  /* transition: .1s visibility linear; */
+  /* transition: .05s position linear; */
+}
+
+.logo:hover span {
+  opacity: 1;
+  position: relative;
+}
+
 @media (min-width: 768px) {
   .nav {
     display: flex;
