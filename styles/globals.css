@@ -417,11 +417,11 @@ h2 {
 
 .pageContainer {
   margin: 0 auto;
-  width: 80%;
+  width: 90%;
   max-width: 760px;
 }
 
-.pageContainer A {
+.pageContainer a {
   text-decoration: underline;
   text-decoration-color: var(--accent-green);
 }
