@@ -40,13 +40,10 @@ export default function RootLayout({
     }
   }, []);
   return (
-    <html lang='en'>
-      <style jsx global>{`
-        :root {
-          --font-body: ${inconsolata.style.fontFamily};
-          --font-heading: ${montserrat.style.fontFamily};
-        }
-      `}</style>
+    <html
+      lang='en'
+      className={`${inconsolata.variable} ${montserrat.variable}`}
+    >
       <head />
       <body>
         <div className='appContainer'>
